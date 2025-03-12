@@ -1,0 +1,419 @@
+/* Overall Page Design */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8f09a7;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Main Container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgb(181, 6, 111);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading Style */
+h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Style */
+p {
+    color: #ffd700;
+    font-size: 18px;
+}
+
+/* Button Design */
+button {
+    background-color: #86f411;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Animation */
+button:hover {
+    background-color: #246935;
+    transform: scale(1.1); /* Button hover pe thoda bada hoga */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        padding: 15px;
+    }
+}
+
+/* About Me Section */
+.about-me {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h2 {
+    color: #8f09a7;
+    font-size: 28px;
+}
+
+.about-me p {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Contact Me Section */
+#contact {
+    background-color: #6d0a84;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#contact h2 {
+    font-size: 28px;
+    color: #4a0072;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 18px;
+    color: #150404;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact button {
+    background-color: #7c21a5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact button:hover {
+    background-color: #190c1f;
+    transform: scale(1.05);
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.project {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 24px;
+    color: #444;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+}
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8f09a7;
+}
+
+/* Navbar Styling */
+header {
+    background-color: #550275;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+/* Sections */
+.container {
+    max-width: 600px;
+    margin: 80px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #550275;
+}
+
+/* Contact Section */
+.contact-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* Scroll Animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+nav {
+    background-color: #550275;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #7c21a5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+}
+
+#backToTop:hover {
+    background-color: #550275;
+    transform: scale(1.1);
+}
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #7c21a5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+}
+
+#backToTop:hover {
+    background-color: #550275;
+    transform: scale(1.1);
+}
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: background 0.5s ease-in-out;
+}
+
+header {
+    padding: 20px;
+}
+
+button {
+    background: #00ff99;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #00cc77;
+    transform: scale(1.1);
+}
+
+#about, #contact {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode {
+    background: linear-gradient(120deg, #1e1e1e, #121212);
+    color: #f5f5f5;
+}
+
+.dark-mode button {
+    background: #ff4081;
+    color: white;
+}
+
+.dark-mode button:hover {
+    background: #e91e63;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #8a2be2;
+    color: white;
+    margin: 0;
+    padding: 0;
+    transition: background 0.5s, color 0.5s;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.hero, .about, .contact {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    font-size: 24px;
+}
+
+.click-me {
+    background-color: green;
+    color: white;
+}
+
+.click-me:hover {
+    background-color: darkgreen;
+}
